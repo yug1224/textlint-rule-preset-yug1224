@@ -1,0 +1,21 @@
+rules:
+  - expected: ECMAScript
+    patterns:
+      - ECMA Script
+      - ecmascript
+      - Ecmascript
+      - EcmaScript
+    prh: （技術用語）
+  - expected: JavaScript
+    patterns:
+      - Java Script
+      - javascript
+      - Javascript
+      - JAVASCRIPT
+    prh: （技術用語）
+  - expected: TypeScript
+    patterns:
+      - Type Script
+      - typescript
+      - Typescript
+    prh: （技術用語）

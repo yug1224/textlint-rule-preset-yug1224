@@ -1,0 +1,17 @@
+{
+  "author": "Yuji Yamaguchi <yuji.yamaguchi24@gmail.com>",
+  "dependencies": {
+    "textlint": "^13.4.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-preset-icsmedia": "github:ics-creative/textlint-rule-preset-icsmedia",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.13",
+    "textlint-rule-prh": "^5.3.0"
+  },
+  "description": "個人用のtextlintルールセットです",
+  "license": "MIT",
+  "name": "textlint-rule-preset-yug1224",
+  "repository": "https://github.com/yug1224/textlint-rule-preset-yug1224.git",
+  "scripts": {},
+  "version": "1.0.0"
+}

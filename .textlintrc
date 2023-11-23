@@ -1,0 +1,70 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-technical-writing": {
+      "ja-unnatural-alphabet": {
+        "allow": [
+          "a",
+          "i",
+          "u",
+          "e",
+          "o",
+          "n",
+          "/[A-Z]/",
+          "/[WwＷｗ]+/$"
+        ],
+        "allowCommonCase": true
+      },
+      "ja-no-mixed-period": {
+        "allowEmojiAtEnd": true,
+        "allowPeriodMarks": [
+          "…",
+          ".",
+          "。",
+          "w",
+          "ｗ",
+          "W",
+          "Ｗ"
+        ]
+      },
+      "ja-no-successive-word": {
+        "allow": [
+          "・",
+          "！",
+          "!",
+          "？",
+          "?",
+          "…",
+          "○",
+          "◯",
+          "w",
+          "ｗ",
+          "W",
+          "Ｗ"
+        ]
+      },
+      "no-doubled-joshi": {
+        "allow": [
+          "も",
+          "や"
+        ]
+      },
+      "no-exclamation-question-mark": false,
+      "sentence-length": {
+        "max": 150
+      }
+    },
+    "preset-jtf-style": {
+      "1.1.3.箇条書き": false,
+      "2.2.1.ひらがなと漢字の使い分け": true
+    },
+    "prh": {
+      "rulePaths": [
+        "prh.yml",
+        "node_modules/textlint-rule-preset-icsmedia/dict/prh.yml"
+      ]
+    }
+  }
+}
